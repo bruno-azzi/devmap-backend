@@ -14,4 +14,4 @@ app.use(cors());
 app.use(express.json()); // tem q vir antes do app.use(routes);
 app.use(routes);
 
-app.listen(3333); 
+app.listen('/'); 
